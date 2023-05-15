@@ -1,8 +1,26 @@
-body {background-color: rgba(224, 224, 224, 0.466);}
-#titulo {text-align: center;}
+body {
+margin: 0px;
+padding: 0px;
+}
+
+#titulo {
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 .empanadas {color:#CD6155;}
+
 .listas {font-size: small;}
+
 h2 {color:#85929E;}
+
 .whatsapp-flotante {
     position: fixed;
     bottom: 20px;
@@ -15,7 +33,58 @@ h2 {color:#85929E;}
     padding: 10px;
     box-shadow: 2px 2px 3px #999;
   }
+
   .whatsapp-flotante img {
     width: 100%;
     height: 100%;
   }
+
+  header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6eac9c57;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    padding: 10px;
+    margin-left: 150px;
+  }
+
+  .redes {
+    background-color: #6eac9c57;
+    padding: 20px;
+    border-radius:5%;
+    margin-right: 150px;
+  }
+
+  .redes img{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6eac9c57;
+    flex-wrap: wrap;
+  }
+
+  #mapa{
+    margin: 10px;
+    margin-left: 150px;
+  }
+
+  .datos{
+    background-color: #6eac9c57;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:5%;
+    margin-right: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+ 
