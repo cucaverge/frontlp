@@ -97,7 +97,9 @@ h2 {color:#85929E;}
 
  a {text-decoration: none;}
 
- .fotos {width: 50vw;}
+ .fotos {width: 50vw;
+        box-sizing: content-box;
+      }
  
  #video {width: 80vh;}
 
