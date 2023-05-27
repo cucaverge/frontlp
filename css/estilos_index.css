@@ -101,4 +101,31 @@ h2 {color:#85929E;}
 
  li {font-size: 1.5em;}
 
+ /* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+  .fotos {
+    width: 100vw;
+        box-sizing: content-box;
+  }
+}
+
+/* Estilos para tabletas */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .fotos {
+    width: 100vw;
+        box-sizing: content-box;
+  }
+}
+
+/* Estilos para computadoras de escritorio */
+@media screen and (min-width: 769px) {
+  .fotos {
+    width: 50vw;
+        box-sizing: content-box;
+  }
+}
+
+
+
+
 
