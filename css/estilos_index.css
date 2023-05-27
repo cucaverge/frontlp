@@ -1,8 +1,3 @@
-@font-face {
-  font-family: geomatrix;
-  src: url(../fuentes/Geomatrix.TTF) format("Truetype");
-}
-
 body {
 margin: 0px;
 padding: 0px;
@@ -84,7 +79,6 @@ h2 {color:#85929E;}
   }
 
   .datos{
-    font-family: "geomatrix";
     background-color: #6eac9c57;
     padding-top: 1px;
     padding-bottom: 1px;
