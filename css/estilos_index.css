@@ -100,18 +100,19 @@ h2 {color:#85929E;}
  /* Estilos para dispositivos móviles */
 @media screen and (max-width: 480px) {
   .fotos {
-    width: 100vw;
+    width: 100%;
         box-sizing: content-box;
   }
   .videolocal {visibility: visible;
-              width: 100vw;
+              width: 100%;
+              box-sizing: content-box;
   }
 }
 
 /* Estilos para tabletas */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .fotos {
-    width: 100vw;
+    width:100%;
         box-sizing: content-box;
   }
   .videolocal {visibility: hidden;
