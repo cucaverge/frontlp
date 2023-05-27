@@ -91,7 +91,8 @@ h2 {color:#85929E;}
 
  a {text-decoration: none;}
  
- #video {width: 80vh;}
+ #video {width: 100%;
+          height: auto;}
 
  p {font-size: 1rem;}
 
@@ -101,10 +102,12 @@ h2 {color:#85929E;}
 @media screen and (max-width: 480px) {
   .fotos {
     width: 100%;
+    height: auto;
         box-sizing: content-box;
   }
   .videolocal {visibility: visible;
               width: 100%;
+              height: auto;
               box-sizing: content-box;
   }
 }
@@ -113,6 +116,7 @@ h2 {color:#85929E;}
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .fotos {
     width:100%;
+    height: auto;
         box-sizing: content-box;
   }
   .videolocal {visibility: hidden;
@@ -123,6 +127,7 @@ h2 {color:#85929E;}
 @media screen and (min-width: 769px) {
   .fotos {
     width: 50vw;
+    height: auto;
         box-sizing: content-box;
   }
   .videolocal {visibility: hidden;
