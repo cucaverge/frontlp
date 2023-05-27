@@ -104,6 +104,7 @@ h2 {color:#85929E;}
         box-sizing: content-box;
   }
   .videolocal {visibility: visible;
+              width: 100vw;
   }
 }
 
