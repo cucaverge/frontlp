@@ -3,6 +3,11 @@ margin: 0px;
 padding: 0px;
 }
 
+.accesible {
+  background-color: #000;
+  color: #fff;
+}
+
 #titulo {
   font-family: 'Varela Round', sans-serif;
   text-align: center;
